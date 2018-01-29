@@ -1,0 +1,10 @@
+The album title you just entered was: <b>{{ album }}</b> 
+<br><br>
+
+{{ album }}, by {{ results['artistName'] }}, was released on {{results['releaseDate'] }}
+
+<br><br>
+See it on iTunes here  <a href="{{ results['collectionViewUrl'] }}">here </a>.
+
+<br><br>
+On a scale of 1 to 3, you would give it <b>{{ rating }}</b> stars!
